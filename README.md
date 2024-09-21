@@ -1,1 +1,2 @@
-# BeatTechAcademy.github.io
+# beattech.github.io
+BeatTech website
