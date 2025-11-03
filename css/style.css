@@ -311,7 +311,7 @@ h1, h2, h3, h4, h5,
   .site-navbar .container-fluid {
     padding-left: 7rem;
     padding-right: 7rem; }
-    @media (max-width: 1199.98px) {
+    @media (max-width: 1499.98px) {
       .site-navbar .container-fluid {
         padding-left: 15px;
         padding-right: 15px; } }
@@ -1124,3 +1124,29 @@ h1, h2, h3, h4, h5,
         .comment-list li .comment-body .reply:hover {
           color: #000;
           background: #e3e3e3; }
+          
+          
+.course {
+  height: 420px;          /* fixed height for all boxes */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.course figure img {
+  height: 180px;          /* fixed image height */
+  width: 100%;
+  object-fit: cover;      /* prevents distortion */
+}
+
+/* 
+.course-inner-text {
+  flex: 1;                /* text fills remaining space */
+  display: flex;
+  align-items: center;
+}
+ */
+
+
